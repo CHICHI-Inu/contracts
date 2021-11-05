@@ -1,0 +1,25 @@
+{
+  "scripts": {
+    "ganache": "ganache-cli -d -p 7545 --networkId 5777 --chainId 1337",
+    "persistent-ganache": "ganache-cli -d -p 7545 --networkId 5777 --chainId 1337 --db db",
+    "deploy": "truffle deploy",
+    "test": "truffle test"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.16.0",
+    "@babel/core": "^7.16.0",
+    "@babel/polyfill": "^7.12.1",
+    "@babel/preset-env": "^7.16.0",
+    "@babel/register": "^7.16.0",
+    "@openzeppelin/test-helpers": "^0.5.15",
+    "@truffle/hdwallet-provider": "^1.5.1",
+    "chai": "^4.3.4",
+    "chai-as-promised": "^7.1.1",
+    "ganache-cli": "^6.12.2",
+    "truffle": "^5.4.17",
+    "truffle-plugin-verify": "^0.5.17"
+  },
+  "dependencies": {
+    "@openzeppelin/contracts": "^4.3.2"
+  }
+}
