@@ -144,6 +144,7 @@ contract CHICHIAdoptionCenter is Ownable {
     require(currentBalance > 0, "All CHICHIs have been adopted already");
 
     uint256 chichis = numberOfChichisToAdopt(adopter);
+    require(chichis > 0, "Your account doesn't have enough Ether to handle the adoption");
     require(currentBalance >= chichis, "The current balance of CHICHIs is insufficient");
     
     _token.transfer(adopter, chichis);
