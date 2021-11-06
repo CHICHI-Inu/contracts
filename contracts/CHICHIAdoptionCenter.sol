@@ -156,7 +156,7 @@ contract CHICHIAdoptionCenter is Ownable {
   /**
    Transfers the remaining balance to the CHICHI Treasury.
    */
-  function transferRemainingBalanceToTreasury() public payable onlyOwner {
+  function transferRemainingBalanceToTreasury() public onlyOwner {
     require(hasEnded(), "The program has not ended yet");
     
     uint256 currentBalance = balance();
