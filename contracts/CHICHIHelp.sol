@@ -149,6 +149,13 @@ contract CHICHIHelp is Ownable {
   }
 
   /**
+    Returns the name of a claimer.
+    */
+  function nameOf(address by) external view returns (string memory) {
+    return _claimers[by].name;
+  }
+
+  /**
     Claim CHICHIs.
     */
   function claim() external {

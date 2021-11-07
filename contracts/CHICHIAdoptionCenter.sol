@@ -46,14 +46,14 @@ contract CHICHIAdoptionCenter is Ownable {
   /**
    Returns the block number when the program starts.
    */
-  function startingBlock() public view returns (uint256) {
+  function startingBlock() external view returns (uint256) {
     return _startingBlock;
   }
 
   /**
    Returns the duration of the program measured in number of blocks.
    */
-  function activeForNumberOfBlocks() public view returns (uint256) {
+  function activeForNumberOfBlocks() external view returns (uint256) {
     return _activeDuration;
   }
 
@@ -81,14 +81,14 @@ contract CHICHIAdoptionCenter is Ownable {
   /**
     Returns the smart contract name.
     */
-  function name() public view returns (string memory) {
+  function name() external view returns (string memory) {
     return _name;
   }
 
   /**
     Returns the treasury address.
     */
-  function treasury() public view returns (address) {
+  function treasury() external view returns (address) {
     return _treasury;
   }
 
@@ -102,7 +102,7 @@ contract CHICHIAdoptionCenter is Ownable {
   /**
     Returns the number of times people have adopted CHICHIs.
     */
-  function numberOfAdoptions() public view returns (uint256) {
+  function numberOfAdoptions() external view returns (uint256) {
     return _adoptions.current();
   }
 
@@ -133,14 +133,14 @@ contract CHICHIAdoptionCenter is Ownable {
   /**
    Returns the number of CHICHIs that the sender has adopted.
    */
-  function adoption(address sender) public view returns (uint256) {
+  function adoption(address sender) external view returns (uint256) {
     return _adopters[sender];
   }
 
   /**
     Adopt CHICHIs.
     */
-  function adopt() public {
+  function adopt() external {
     address adopter = _msgSender();
 
     require(hasAdopted(adopter) == false, "Already adopted");
@@ -164,7 +164,7 @@ contract CHICHIAdoptionCenter is Ownable {
   /**
    Transfers the remaining balance to the CHICHI Treasury.
    */
-  function transferRemainingBalanceToTreasury() public onlyOwner {
+  function transferRemainingBalanceToTreasury() external onlyOwner {
     require(hasEnded(), "The program has not ended yet");
     
     uint256 currentBalance = balance();
