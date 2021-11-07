@@ -7,9 +7,17 @@ module.exports = function (deployer, network) {
   const activePeriod = 294545
 
   switch (network) {
+    case "live":
+      throw new Error("Not live yet")
+
     case "ropsten":
       tokenAddress = '0x4f4a97d44A1F1D247D067dbd2EaB55Cba9dC68a5'
       startingBlock = 11374500
+      break
+
+    case "rinkeby":
+      tokenAddress = '0x3F681218C7C3c58cFe82d871B8D517B156cBddA6'
+      startingBlock = 9599700
       break
 
     default:

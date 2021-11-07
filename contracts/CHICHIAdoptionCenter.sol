@@ -36,11 +36,11 @@ contract CHICHIAdoptionCenter is Ownable {
   /**
     Smart contract initialization.
     */
-  constructor(ERC20 token, uint256 startingAt, uint256 activeDuration, address treasury) {
+  constructor(ERC20 token, uint256 startingAt, uint256 activeDuration, address treasuryAddress) {
     _token = token;
     _startingBlock = startingAt;
     _activeDuration = activeDuration;
-    _treasury = treasury;
+    _treasury = treasuryAddress;
   }
 
   /**
@@ -83,6 +83,13 @@ contract CHICHIAdoptionCenter is Ownable {
     */
   function name() public view returns (string memory) {
     return _name;
+  }
+
+  /**
+    Returns the treasury address.
+    */
+  function treasury() public view returns (address) {
+    return _treasury;
   }
 
   /**
