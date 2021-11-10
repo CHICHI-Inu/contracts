@@ -31,6 +31,12 @@ Address: [0x7B1F6806b8b7832B204F94A514de49cc0E938730](https://ropsten.etherscan.
 
 Address: [0xBbaE9863602F24B44e89A0F4b8C686feb7dd0777](https://ropsten.etherscan.io/address/0xBbaE9863602F24B44e89A0F4b8C686feb7dd0777)
 
+### Kovan
+
+#### CHICHI
+
+Address: [0x79FABa6bD0519795fB3844C2e5a38a5162681341](https://kovan.etherscan.io/address/0x79FABa6bD0519795fB3844C2e5a38a5162681341)
+
 ## Deploying the contracts
 
 ```shell

@@ -25531,6 +25531,12 @@
       "address": "0x3F681218C7C3c58cFe82d871B8D517B156cBddA6",
       "transactionHash": "0x24dfafe8e3084df2177fc4ec843a5ff2d2d8db5d5973b382868028ee9fb2a3d8"
     },
+    "42": {
+      "events": {},
+      "links": {},
+      "address": "0x79FABa6bD0519795fB3844C2e5a38a5162681341",
+      "transactionHash": "0x0fd232d29cef40d004f6522c6d01f9c00dfe56a67368e8ab62c12190d90f8e37"
+    },
     "5777": {
       "events": {
         "0x8c5be1e5ebec7d5bd14f71427d1e84f3dd0314c0f7b2291e5b200ac8c7c3b925": {
