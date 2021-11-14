@@ -1,5 +1,5 @@
 // SPDX-License-Identifier: MIT
-pragma solidity >=0.4.22 <0.9.0;
+pragma solidity 0.8.10;
 
 import "@openzeppelin/contracts/token/ERC20/ERC20.sol";
 import "@openzeppelin/contracts/access/Ownable.sol";
@@ -23,7 +23,7 @@ contract CHICHIHelp is Ownable {
   event TransferredToTreasury(uint numberOfChichis);
 
   // Name of the smart contract
-  string private _name = "CHICHI Help";
+  string constant private _name = "CHICHI Help";
 
   // Token that will be used to transfer funds
   ERC20 private _token;
@@ -47,6 +47,7 @@ contract CHICHIHelp is Ownable {
     Smart contract initialization.
     */
   constructor(ERC20 token, uint256 startingAt, uint256 activeDuration, address treasuryAddress) {
+    require(treasuryAddress != address(0), "Treasury address cannot be the zero address");
     require(startingAt > 0, "Starting block must be greater than 0");
     require(activeDuration > 0, "Active duration must be greater than 0");
 
@@ -94,7 +95,7 @@ contract CHICHIHelp is Ownable {
   /**
     Returns the smart contract name.
     */
-  function name() external view returns (string memory) {
+  function name() external pure returns (string memory) {
     return _name;
   }
 
