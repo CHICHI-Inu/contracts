@@ -45,6 +45,20 @@ Address: [0xc8deD06f7053967190D2F7cCA1134f00E66dDe65](https://kovan.etherscan.io
 
 Address: [0x05Ea2076468e787048Ea14f04bAD936AFC4eEd17](https://kovan.etherscan.io/address/0x05Ea2076468e787048Ea14f04bAD936AFC4eEd17)
 
+### Goerli
+
+#### CHICHI
+
+Address: [0x79FABa6bD0519795fB3844C2e5a38a5162681341](https://goerli.etherscan.io/address/0x79FABa6bD0519795fB3844C2e5a38a5162681341)
+
+#### CHICHI Adoption Center
+
+Address: [0xc8deD06f7053967190D2F7cCA1134f00E66dDe65](https://goerli.etherscan.io/address/0xc8deD06f7053967190D2F7cCA1134f00E66dDe65)
+
+#### CHICHI Help Center
+
+Address: [0x05Ea2076468e787048Ea14f04bAD936AFC4eEd17](https://goerli.etherscan.io/address/0x05Ea2076468e787048Ea14f04bAD936AFC4eEd17)
+
 ## Deploying the contracts
 
 ```shell

@@ -25,6 +25,11 @@ module.exports = function (deployer, network) {
       startingBlock = 28292850
       break
 
+    case "goerli":
+      tokenAddress = '0x79FABa6bD0519795fB3844C2e5a38a5162681341'
+      startingBlock = 5849810
+      break
+
     default:
       tokenAddress = '0xCfEB869F69431e42cdB54A4F4f105C19C080A601'
       startingBlock = 5
