@@ -18,4 +18,10 @@ contract("CHICHI", function (accounts) {
     const token = await CHICHI.deployed()
     expect(token.mint === undefined && token._mint === undefined).to.be.true
   })
+
+  it("should estimate gas cost", async function () {
+    const cost = await CHICHI.new.estimateGas()
+    console.log("Gas cost to deploy: ", cost)
+    assert(true)
+  })
 });
