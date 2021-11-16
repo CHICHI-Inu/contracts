@@ -8,7 +8,9 @@ module.exports = function (deployer, network) {
 
   switch (network) {
     case "live":
-      throw new Error("Not live yet")
+      tokenAddress = '0x3F681218C7C3c58cFe82d871B8D517B156cBddA6'
+      startingBlock = 13833825
+      break
 
     case "ropsten":
       tokenAddress = '0x4f4a97d44A1F1D247D067dbd2EaB55Cba9dC68a5'

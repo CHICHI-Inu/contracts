@@ -9,6 +9,14 @@ Smart contracts for CHICHI Inu
 
 Address: [0x3F681218C7C3c58cFe82d871B8D517B156cBddA6](https://etherscan.io/address/0x3f681218c7c3c58cfe82d871b8d517b156cbdda6)
 
+##### CHICHI Adoption Center
+
+Address: [0x79FABa6bD0519795fB3844C2e5a38a5162681341](https://etherscan.io/address/0x79faba6bd0519795fb3844c2e5a38a5162681341)
+
+##### CHICHI Help Center
+
+Address: [0xc8ded06f7053967190d2f7cca1134f00e66dde65](https://etherscan.io/address/0xc8ded06f7053967190d2f7cca1134f00e66dde65)
+
 ### Testnets
 
 #### Rinkeby
