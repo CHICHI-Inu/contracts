@@ -13,9 +13,9 @@ With 1 trillion tokens, 50% locked as liquidity, 20% reserved for COVID relief f
 
 #### Token
 
-[Chichi Inu ($CHICHI)](https://etherscan.io/address/0x3f681218c7c3c58cfe82d871b8d517b156cbdda6) is a community-focused, decentralized meme token created on the Ethereum blockchain.
+[Chichi Inu ($CHICHI)](https://bscscan.com/address/0x2aad7bc07eb37e90ae35d0cc24cfe67b468f1bfa) is a community-focused, decentralized meme token created on the Binance Smart Chain blockchain.
 To ensure safety we had the $CHICHI token smart contract audited by [SOLIDProof](https://github.com/solidproof/smart-contract-audits/blob/main/SmartContract_Audit_Solidproof_Chichi.pdf).
-The [$CHICHI](https://etherscan.io/address/0x3f681218c7c3c58cfe82d871b8d517b156cbdda6) smart contract contains no potentially dangerous code, such as mint functions, and the total supply is fixed at 1.000.000.000.000 $CHICHI.
+The [$CHICHI](https://bscscan.com/address/0x2aad7bc07eb37e90ae35d0cc24cfe67b468f1bfa) smart contract contains no potentially dangerous code, such as mint functions, and the total supply is fixed at 1.000.000.000.000 $CHICHI.
 
 Furthermore, the smart contract for the $CHICHI token is built using [OpenZeppelin Contracts](https://openzeppelin.com/contracts/) that have been audited by the community.
 
@@ -24,7 +24,7 @@ In contrast to projects that are heavily focused on farming and liquidity pool a
 #### CHICHI Inu NFT
 
 Our community will benefit from a one-of-a-kind NFT project that will incorporate the world's first content authenticity technology, which was specifically designed for the NFT industry.
-A total of 8888 NFTs will be included in the collection, which will be available on the Ethereum blockchain and will be traded on all of the popular NFT exchanges around the world.
+A total of 8888 NFTs will be included in the collection, which will be available on the Binance Smart Chain blockchain and will be traded on all of the popular NFT exchanges around the world.
 Access to this collection will be granted to members of our community first, as part of the CHICHI Adoption program, which rewards members of our community with free $CHICHI tokens and NFTs in exchange for their participation.
 
 More details about the NFT collection will be released soon after we have all the artworks and the smart contracts for it ready.
@@ -32,10 +32,10 @@ More details about the NFT collection will be released soon after we have all th
 #### CHICHI Inu Adoption
 
 For anyone who hesitated to purchase the other Inu-family tokens, we have a special gift for you.
-We've developed a special program called the [CHICHI Inu Adoption Center](https://etherscan.io/address/0x79faba6bd0519795fb3844c2e5a38a5162681341), which allows you to obtain a small number of $CHICHI tokens for free!!
+We've developed a special program called the CHICHI Inu Adoption Center, which allows you to obtain a small number of $CHICHI tokens for free!!
 We're offering our community 2.5 percent of our total supply for a limited time.
-Collecting CHICHI tokens is completely free, and the total number of tokens you receive is proportional to the amount of Ether you currently hold.
-A user's Ether balance determines how many tokens he or she will receive.
+Collecting CHICHI tokens is completely free, and the total number of tokens you receive is proportional to the amount of BNB you currently hold.
+A user's BNB balance determines how many tokens he or she will receive.
 
 BONUS We will give an NFT to everyone who adopts our dogs when the collection is ready.
 
@@ -49,7 +49,7 @@ We want to help the world go back to its natural state, one in which everyone ca
 
 While it will be difficult to change this on our own, if we work together, we can.
 
-Because of this, 20% of our total supply is reserved for COVID relief funds around the world. Our [CHICHI COVID Relief Funds smart contract](https://etherscan.io/address/0xc8ded06f7053967190d2f7cca1134f00e66dde65) holds 20% of our entire supply, and tokens may be withdrawn only by authorized wallet addresses.
+Because of this, 20% of our total supply is reserved for COVID relief funds around the world. Our CHICHI COVID Relief Funds smart contract holds 20% of our entire supply, and tokens may be withdrawn only by authorized wallet addresses.
 
 Anyone can contribute to the list of authorized wallet addresses using our on-chain CHICHI Governance program.
 
@@ -91,73 +91,13 @@ It comprises a voting dashboard, proposal creation wizard, real time research an
 
 **CHICHI**
 
-Address: [0x3F681218C7C3c58cFe82d871B8D517B156cBddA6](https://etherscan.io/address/0x3f681218c7c3c58cfe82d871b8d517b156cbdda6)
+Address: [0x2aAD7BC07EB37e90AE35D0cc24cfE67B468f1BfA](https://bscscan.com/address/0x2aad7bc07eb37e90ae35d0cc24cfe67b468f1bfa)
 
-**CHICHI Adoption Center**
-
-Address: [0x79FABa6bD0519795fB3844C2e5a38a5162681341](https://etherscan.io/address/0x79faba6bd0519795fb3844c2e5a38a5162681341)
-
-**CHICHI Help Center**
-
-Address: [0xc8ded06f7053967190d2f7cca1134f00e66dde65](https://etherscan.io/address/0xc8ded06f7053967190d2f7cca1134f00e66dde65)
-
-### 🚧 Testnets
-
-#### Rinkeby
+### 🚧 Testnet
 
 **CHICHI**
 
-Address: [0x3F681218C7C3c58cFe82d871B8D517B156cBddA6](https://rinkeby.etherscan.io/address/0x3F681218C7C3c58cFe82d871B8D517B156cBddA6)
-
-**CHICHI Adoption Center**
-
-Address: [0x79FABa6bD0519795fB3844C2e5a38a5162681341](https://rinkeby.etherscan.io/address/0x79FABa6bD0519795fB3844C2e5a38a5162681341)
-
-**CHICHI Help Center**
-
-Address: [0xc8deD06f7053967190D2F7cCA1134f00E66dDe65](https://rinkeby.etherscan.io/address/0xc8deD06f7053967190D2F7cCA1134f00E66dDe65)
-
-#### Ropsten
-
-**CHICHI**
-
-Address: [0x4f4a97d44A1F1D247D067dbd2EaB55Cba9dC68a5](https://ropsten.etherscan.io/address/0x4f4a97d44A1F1D247D067dbd2EaB55Cba9dC68a5)
-
-**CHICHI Adoption Center**
-
-Address: [0x7B1F6806b8b7832B204F94A514de49cc0E938730](https://ropsten.etherscan.io/address/0x7B1F6806b8b7832B204F94A514de49cc0E938730)
-
-**CHICHI Help Center**
-
-Address: [0xBbaE9863602F24B44e89A0F4b8C686feb7dd0777](https://ropsten.etherscan.io/address/0xBbaE9863602F24B44e89A0F4b8C686feb7dd0777)
-
-#### Kovan
-
-**CHICHI**
-
-Address: [0x79FABa6bD0519795fB3844C2e5a38a5162681341](https://kovan.etherscan.io/address/0x79FABa6bD0519795fB3844C2e5a38a5162681341)
-
-**CHICHI Adoption Center**
-
-Address: [0xc8deD06f7053967190D2F7cCA1134f00E66dDe65](https://kovan.etherscan.io/address/0xc8deD06f7053967190D2F7cCA1134f00E66dDe65)
-
-**CHICHI Help Center**
-
-Address: [0x05Ea2076468e787048Ea14f04bAD936AFC4eEd17](https://kovan.etherscan.io/address/0x05Ea2076468e787048Ea14f04bAD936AFC4eEd17)
-
-#### Goerli
-
-**CHICHI**
-
-Address: [0x79FABa6bD0519795fB3844C2e5a38a5162681341](https://goerli.etherscan.io/address/0x79FABa6bD0519795fB3844C2e5a38a5162681341)
-
-**CHICHI Adoption Center**
-
-Address: [0xc8deD06f7053967190D2F7cCA1134f00E66dDe65](https://goerli.etherscan.io/address/0xc8deD06f7053967190D2F7cCA1134f00E66dDe65)
-
-**CHICHI Help Center**
-
-Address: [0x05Ea2076468e787048Ea14f04bAD936AFC4eEd17](https://goerli.etherscan.io/address/0x05Ea2076468e787048Ea14f04bAD936AFC4eEd17)
+Address: [0x2aAD7BC07EB37e90AE35D0cc24cfE67B468f1BfA](https://testnet.bscscan.com/address/0x2aad7bc07eb37e90ae35d0cc24cfe67b468f1bfa)
 
 ## Deploying the contracts
 
@@ -165,7 +105,7 @@ Address: [0x05Ea2076468e787048Ea14f04bAD936AFC4eEd17](https://goerli.etherscan.i
 npx truffle deploy --network NETWORK
 ```
 
-## Verifying the contracts on Etherscan
+## Verifying the contracts on BSC Scan
 
 ```shell
 npx truffle run verify CONTRACT --network NETWORK
